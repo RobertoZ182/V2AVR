@@ -194,7 +194,7 @@ function App() {
 
             <div className="hidden md:flex items-center space-x-4">
               <Phone className="w-4 h-4 text-blue-800" />
-              <span className="text-sm font-semibold text-gray-900">0755 123 456</span>
+              <span className="text-sm font-semibold text-gray-900">0765 807 100</span>
             </div>
 
             {/* Mobile menu button */}
@@ -218,7 +218,7 @@ function App() {
               <a href="#contact" className="block text-gray-700 hover:text-blue-800 transition-colors font-medium">Contact</a>
               <div className="flex items-center space-x-2 pt-4 border-t border-gray-200">
                 <Phone className="w-4 h-4 text-blue-800" />
-                <span className="text-sm font-semibold text-gray-900">0755 123 456</span>
+                <span className="text-sm font-semibold text-gray-900">0765 807 100</span>
               </div>
             </div>
           </div>
@@ -445,7 +445,7 @@ function App() {
                     <input 
                       type="tel" 
                       className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
-                      placeholder="0755 123 456"
+                      placeholder="0765 807 100"
                     />
                   </div>
                   <div>
@@ -472,7 +472,7 @@ function App() {
                     <Phone className="w-6 h-6 text-blue-800 mt-1" />
                     <div>
                       <h4 className="font-semibold text-gray-900">Telefon</h4>
-                      <p className="text-gray-600">0755 123 456</p>
+                      <p className="text-gray-600">0765 807 100</p>
                       <p className="text-sm text-gray-500">Servicii de urgență 24/7 disponibile</p>
                     </div>
                   </div>
@@ -480,7 +480,7 @@ function App() {
                     <Mail className="w-6 h-6 text-blue-800 mt-1" />
                     <div>
                       <h4 className="font-semibold text-gray-900">Email</h4>
-                      <p className="text-gray-600">info@forajeputuri.ro</p>
+                      <p className="text-gray-600">adrianrobert748@gmail.com</p>
                       <p className="text-sm text-gray-500">Răspundem în 24 de ore</p>
                     </div>
                   </div>
@@ -559,11 +559,11 @@ function App() {
                 <div className="space-y-3 text-gray-400">
                   <div className="flex items-center space-x-2">
                     <Phone className="w-4 h-4" />
-                    <span>0755 123 456</span>
+                    <span>0765 807 100</span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <Mail className="w-4 h-4" />
-                    <span>info@forajeputuri.ro</span>
+                    <span>adrianrobert748@gmail.com</span>
                   </div>
                 </div>
               </div>
