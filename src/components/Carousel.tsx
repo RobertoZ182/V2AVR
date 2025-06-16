@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import React, { useState, useEffect, useRef } from 'react';
 
 interface CarouselItem {
   id: number;
@@ -11,7 +10,6 @@ interface CarouselProps {
   autoPlay?: boolean;
   interval?: number;
   showDots?: boolean;
-  showArrows?: boolean;
   className?: string;
 }
 
@@ -20,30 +18,36 @@ export const Carousel: React.FC<CarouselProps> = ({
   autoPlay = true,
   interval = 5000,
   showDots = true,
-  showArrows = true,
   className = ''
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [progress, setProgress] = useState(0);
+  const progressRef = useRef<number | null>(null);
+
 
   useEffect(() => {
     if (!autoPlay) return;
 
-    const timer = setInterval(() => {
-      setCurrentIndex((prevIndex) => 
+    // Progress animation
+    setProgress(0);
+    const start = Date.now();
+    progressRef.current = setInterval(() => {
+      const elapsed = Date.now() - start;
+      const percent = Math.min((elapsed / interval) * 100, 100);
+      setProgress(percent);
+    }, 50);
+
+    const slideTimer = setTimeout(() => {
+      setCurrentIndex((prevIndex) =>
         prevIndex === items.length - 1 ? 0 : prevIndex + 1
       );
     }, interval);
 
-    return () => clearInterval(timer);
-  }, [autoPlay, interval, items.length]);
-
-  const goToPrevious = () => {
-    setCurrentIndex(currentIndex === 0 ? items.length - 1 : currentIndex - 1);
-  };
-
-  const goToNext = () => {
-    setCurrentIndex(currentIndex === items.length - 1 ? 0 : currentIndex + 1);
-  };
+    return () => {
+      clearTimeout(slideTimer);
+      if (progressRef.current) clearInterval(progressRef.current);
+    };
+  }, [currentIndex, autoPlay, interval, items.length]);
 
   const goToSlide = (index: number) => {
     setCurrentIndex(index);
@@ -51,7 +55,8 @@ export const Carousel: React.FC<CarouselProps> = ({
 
   return (
     <div className={`relative overflow-hidden ${className}`}>
-      <div 
+      {/* Slide content */}
+      <div
         className="flex transition-transform duration-500 ease-in-out"
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
       >
@@ -62,34 +67,26 @@ export const Carousel: React.FC<CarouselProps> = ({
         ))}
       </div>
 
-      {showArrows && (
-        <>
-          <button
-            onClick={goToPrevious}
-            className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-2 rounded-full shadow-lg transition-all duration-300 hover:scale-110"
-          >
-            <ChevronLeft className="w-6 h-6" />
-          </button>
-          <button
-            onClick={goToNext}
-            className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-2 rounded-full shadow-lg transition-all duration-300 hover:scale-110"
-          >
-            <ChevronRight className="w-6 h-6" />
-          </button>
-        </>
-      )}
 
+      <div className="absolute top-0 left-0 w-full h-1 bg-white/20 z-0">
+        <div
+          className="h-full bg-orange-500 transition-all duration-100 linear"
+          style={{ width: `${progress}%` }}
+        ></div>
+      </div>
+
+
+      {/* Dots */}
       {showDots && (
-        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+        <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 flex space-x-2">
           {items.map((_, index) => (
             <button
               key={index}
               onClick={() => goToSlide(index)}
-              className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                index === currentIndex 
-                  ? 'bg-white scale-125' 
+              className={`w-3 h-3 rounded-full transition-all duration-300 ${index === currentIndex
+                  ? 'bg-white scale-125'
                   : 'bg-white/50 hover:bg-white/75'
-              }`}
+                }`}
             />
           ))}
         </div>
