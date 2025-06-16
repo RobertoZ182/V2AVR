@@ -28,67 +28,67 @@ function App() {
   const services = [
     {
       icon: <Drill className="w-8 h-8" />,
-      title: "Foraje Puturi de Apă",
-      description: "Servicii profesionale de forare puturi de apă pentru proprietăți rezidențiale, comerciale și agricole cu echipamente de ultimă generație."
+      title: "Foraje Puturi de Apă București",
+      description: "Servicii profesionale de forare puturi de apă pentru proprietăți rezidențiale, comerciale și agricole cu echipamente moderne de forare în București și Ilfov."
     },
     {
       icon: <Wrench className="w-8 h-8" />,
-      title: "Întreținere Puturi",
-      description: "Servicii complete de întreținere și reparații puturi pentru a asigura un debit optim al apei și longevitatea sistemului."
+      title: "Întreținere și Reparații Puturi",
+      description: "Servicii complete de întreținere și reparații puturi pentru a asigura un debit optim al apei și longevitatea sistemului de pompare."
     },
     {
       icon: <Truck className="w-8 h-8" />,
-      title: "Instalare Pompe",
-      description: "Servicii experte de instalare și înlocuire pompe cu echipamente de înaltă calitate pentru eficiență și fiabilitate maximă."
+      title: "Instalare Pompe Submersibile",
+      description: "Servicii experte de instalare și înlocuire pompe submersibile cu echipamente de înaltă calitate pentru eficiență și fiabilitate maximă."
     },
     {
       icon: <Shield className="w-8 h-8" />,
-      title: "Testare Puturi",
-      description: "Servicii complete de testare calitatea apei și inspecție puturi pentru a asigura apă sigură și curată pentru proprietatea dumneavoastră."
+      title: "Testare Calitate Apă Puturi",
+      description: "Servicii complete de testare calitatea apei și inspecție puturi pentru a asigura apă potabilă sigură și curată pentru proprietatea dumneavoastră."
     }
   ];
 
   const benefits = [
     {
       icon: <Award className="w-6 h-6" />,
-      title: "Peste 25 de Ani Experiență",
-      description: "Decenii de expertiză în forarea puțurilor cu sute de proiecte finalizate cu succes."
+      title: "Peste 25 de Ani Experiență Foraje Puturi",
+      description: "Decenii de expertiză în forarea puțurilor de apă cu sute de proiecte finalizate cu succes în București și împrejurimi."
     },
     {
       icon: <Shield className="w-6 h-6" />,
-      title: "Licențiați și Asigurați",
-      description: "Complet licențiați și asigurați pentru liniștea și protecția dumneavoastră."
+      title: "Licențiați și Asigurați pentru Foraje",
+      description: "Complet licențiați și asigurați pentru servicii de forare puturi conform reglementărilor românești pentru liniștea dumneavoastră."
     },
     {
       icon: <Clock className="w-6 h-6" />,
-      title: "Servicii de Urgență 24/7",
-      description: "Servicii de urgență non-stop când aveți nevoie urgent de restabilirea apei."
+      title: "Servicii Urgență Puturi 24/7",
+      description: "Servicii de urgență non-stop pentru probleme cu puțurile de apă când aveți nevoie urgent de restabilirea apei."
     },
     {
       icon: <CheckCircle className="w-6 h-6" />,
-      title: "Garanție de Calitate",
-      description: "Ne susținem munca cu garanții complete pentru toate serviciile de forare."
+      title: "Garanție Completă Foraje Puturi",
+      description: "Ne susținem munca cu garanții complete pentru toate serviciile de forare puturi și instalare echipamente."
     }
   ];
 
   const testimonials = [
     {
       name: "Maria Popescu",
-      location: "Proprietar Rural",
+      location: "Proprietar Rural, Ilfov",
       rating: 5,
-      text: "Servicii excepționale! Au forat puțul nostru rapid și profesional. Calitatea apei este excelentă și echipa a fost incredibil de competentă."
+      text: "Servicii excepționale de forare puturi! Au forat puțul nostru rapid și profesional. Calitatea apei este excelentă și echipa a fost incredibil de competentă pentru forarea puțului de apă."
     },
     {
       name: "Ion Georgescu",
-      location: "Manager Fermă",
+      location: "Manager Fermă, Giurgiu",
       rating: 5,
-      text: "Aveam nevoie de o sursă fiabilă de apă pentru animalele noastre. Echipa a livrat exact ceea ce aveam nevoie la timp și în buget."
+      text: "Aveam nevoie de o sursă fiabilă de apă pentru animalele noastre. Echipa de foraje puturi a livrat exact ceea ce aveam nevoie la timp și în buget pentru puțul de apă."
     },
     {
       name: "Ana Dumitrescu",
-      location: "Proprietar Casă",
+      location: "Proprietar Casă, București Sector 1",
       rating: 5,
-      text: "Profesioniști de la început până la sfârșit. Au explicat întregul proces și au oferit servicii excelente de urmărire. Recomand cu încredere!"
+      text: "Profesioniști de la început până la sfârșit pentru forarea puțului. Au explicat întregul proces de forare puturi și au oferit servicii excelente de urmărire. Recomand cu încredere!"
     }
   ];
 
@@ -111,26 +111,26 @@ function App() {
             <div className="max-w-3xl text-white">
               <ScrollAnimation animation="fadeInUp">
                 <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-                  Servicii Profesionale de
-                  <span className="text-blue-400"> Forare Puțuri</span>
+                  Foraje Puturi București
+                  <span className="text-blue-400"> Servicii Profesionale</span>
                 </h1>
               </ScrollAnimation>
               <ScrollAnimation animation="fadeInUp" delay={200}>
                 <p className="text-xl md:text-2xl mb-8 text-white leading-relaxed">
-                  Experți de încredere în forarea puțurilor de apă, servind clienți rezidențiali, comerciali și agricoli cu peste 25 de ani de experiență.
+                  Experți de încredere în forarea puțurilor de apă, servind clienți rezidențiali, comerciali și agricoli cu peste 25 de ani de experiență în București și Ilfov.
                 </p>
               </ScrollAnimation>
               <ScrollAnimation animation="fadeInUp" delay={400}>
                 <div className="flex flex-col sm:flex-row gap-4">
                 <a href="#contact">
                   <button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center group">
-                  Ofertă Gratuită
+                  Ofertă Gratuită Foraje Puturi
                     <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                   </button>
                   </a>
                   <a href="#servicii">
                   <button className="border-2 border-white text-white hover:bg-white hover:text-blue-800 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300">
-                  Serviciile Noastre 
+                  Servicii Foraje Puturi
                   </button> 
                   </a>
                 </div>
@@ -158,14 +158,14 @@ function App() {
             <div className="max-w-3xl text-white">
               <ScrollAnimation animation="fadeInLeft">
                 <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-                  Tehnologie
-                  <span className="text-orange-400"> Avansată</span>
-                  <br />de Forare
+                  Tehnologie Avansată
+                  <span className="text-orange-400"> Forare Puturi</span>
+                  <br />București
                 </h1>
               </ScrollAnimation>
               <ScrollAnimation animation="fadeInLeft" delay={200}>
                 <p className="text-xl md:text-2xl mb-8 text-white leading-relaxed">
-                  Utilizăm echipamente moderne și tehnici avansate pentru a vă oferi cele mai bune soluții de apă.
+                  Utilizăm echipamente moderne de forare puturi și tehnici avansate pentru a vă oferi cele mai bune soluții de apă în București și Ilfov.
                 </p>
               </ScrollAnimation>
             </div>
@@ -197,13 +197,14 @@ function App() {
             <div className="max-w-3xl text-white">
               <ScrollAnimation animation="fadeInLeft">
                 <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-                  Soluții Complete pentru
+                  Soluții Complete
                   <span className="text-blue-400"> Puțuri de Apă</span>
+                  <br />București
                 </h1>
               </ScrollAnimation>
               <ScrollAnimation animation="fadeInLeft" delay={200}>
                 <p className="text-xl md:text-2xl mb-8 text-white leading-relaxed">
-                  De la consultanță și proiectare până la forare și echipare, oferim servicii la cheie adaptate nevoilor tale rezidențiale, industriale sau agricole.
+                  De la consultanță și proiectare până la forare puturi și echipare, oferim servicii la cheie adaptate nevoilor tale rezidențiale, industriale sau agricole în București.
                 </p>
               </ScrollAnimation>
             </div>
@@ -223,7 +224,7 @@ function App() {
             <div className="flex items-center space-x-3">
               <img
                 src="/images/Screenshot_2025-06-15_at_15.24.03-removebg-preview.png"
-                alt="Foraje Puturi Logo"
+                alt="Foraje Puturi București Logo"
                 className="h-12 w-auto"
               />
             </div>
@@ -231,9 +232,9 @@ function App() {
             {/* Desktop Navigation */}
             <nav className="hidden md:flex space-x-8">
               <a href="#acasa" className="text-gray-700 hover:text-blue-800 transition-colors font-medium">Acasă</a>
-              <a href="#servicii" className="text-gray-700 hover:text-blue-800 transition-colors font-medium">Servicii</a>
-              <a href="#despre" className="text-gray-700 hover:text-blue-800 transition-colors font-medium">Despre</a>
-              <a href="#testimoniale" className="text-gray-700 hover:text-blue-800 transition-colors font-medium">Recenzii</a>
+              <a href="#servicii" className="text-gray-700 hover:text-blue-800 transition-colors font-medium">Servicii Foraje</a>
+              <a href="#despre" className="text-gray-700 hover:text-blue-800 transition-colors font-medium">Despre Noi</a>
+              <a href="#testimoniale" className="text-gray-700 hover:text-blue-800 transition-colors font-medium">Recenzii Clienți</a>
               <a href="#contact" className="text-gray-700 hover:text-blue-800 transition-colors font-medium">Contact</a>
             </nav>
 
@@ -246,6 +247,7 @@ function App() {
             <button
               className="md:hidden p-2"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
+              aria-label="Deschide meniul"
             >
               {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
@@ -257,9 +259,9 @@ function App() {
           <div className="md:hidden bg-white border-t border-gray-200">
             <div className="px-4 py-6 space-y-4">
               <a href="#acasa" className="block text-gray-700 hover:text-blue-800 transition-colors font-medium">Acasă</a>
-              <a href="#servicii" className="block text-gray-700 hover:text-blue-800 transition-colors font-medium">Servicii</a>
-              <a href="#despre" className="block text-gray-700 hover:text-blue-800 transition-colors font-medium">Despre</a>
-              <a href="#testimoniale" className="block text-gray-700 hover:text-blue-800 transition-colors font-medium">Recenzii</a>
+              <a href="#servicii" className="block text-gray-700 hover:text-blue-800 transition-colors font-medium">Servicii Foraje</a>
+              <a href="#despre" className="block text-gray-700 hover:text-blue-800 transition-colors font-medium">Despre Noi</a>
+              <a href="#testimoniale" className="block text-gray-700 hover:text-blue-800 transition-colors font-medium">Recenzii Clienți</a>
               <a href="#contact" className="block text-gray-700 hover:text-blue-800 transition-colors font-medium">Contact</a>
               <div className="flex items-center space-x-2 pt-4 border-t border-gray-200">
                 <Phone className="w-4 h-4 text-blue-800" />
@@ -285,9 +287,9 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <ScrollAnimation animation="fadeInUp">
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Serviciile Noastre</h2>
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Servicii Foraje Puturi București</h2>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                Servicii complete de forare puturi și sisteme de apă adaptate nevoilor dumneavoastră specifice
+                Servicii complete de forare puturi de apă și sisteme de pompare adaptate nevoilor dumneavoastră specifice în București și Ilfov
               </p>
             </div>
           </ScrollAnimation>
@@ -309,6 +311,29 @@ function App() {
               </ScrollAnimation>
             ))}
           </div>
+
+          {/* Additional SEO Content */}
+          <ScrollAnimation animation="fadeInUp" delay={400}>
+            <div className="mt-16 bg-white p-8 rounded-xl shadow-lg">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">De Ce Să Alegeți Serviciile Noastre de Foraje Puturi în București?</h3>
+              <div className="grid md:grid-cols-2 gap-6 text-gray-600">
+                <div>
+                  <h4 className="font-semibold text-gray-900 mb-2">Experiență Vastă în Foraje Puturi</h4>
+                  <p className="mb-4">Cu peste 25 de ani de experiență în forarea puțurilor de apă în București și Ilfov, am dezvoltat expertiza necesară pentru a gestiona orice tip de proiect de forare puturi.</p>
+                  
+                  <h4 className="font-semibold text-gray-900 mb-2">Echipamente Moderne de Forare</h4>
+                  <p className="mb-4">Utilizăm cele mai moderne echipamente de forare puturi pentru a asigura eficiență maximă și rezultate de calitate superioară pentru fiecare puț de apă.</p>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-gray-900 mb-2">Servicii Complete Puturi de Apă</h4>
+                  <p className="mb-4">Oferim servicii complete de la consultanță inițială, forare puturi, instalare pompe submersibile, până la întreținerea pe termen lung a puțurilor de apă.</p>
+                  
+                  <h4 className="font-semibold text-gray-900 mb-2">Prețuri Competitive Foraje Puturi</h4>
+                  <p>Oferim cele mai competitive prețuri pentru servicii de forare puturi în București, fără compromisuri la calitate. Solicitați o ofertă gratuită pentru proiectul dumneavoastră.</p>
+                </div>
+              </div>
+            </div>
+          </ScrollAnimation>
         </div>
       </section>
 
@@ -322,13 +347,13 @@ function App() {
                   Experți de Încredere în Forarea Puțurilor din 1998
                 </h2>
                 <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                  De peste 25 de ani, Foraje Puturi este compania lider în forarea puțurilor de apă din regiune.
-                  Combinăm expertiza tradițională cu tehnologia modernă pentru a oferi soluții fiabile de apă pentru
-                  case, afaceri și ferme.
+                  De peste 25 de ani, compania noastră este liderul în servicii de forare puturi de apă din regiunea București-Ilfov.
+                  Combinăm expertiza tradițională cu tehnologia modernă de forare pentru a oferi soluții fiabile de apă pentru
+                  case, afaceri și ferme din întreaga zonă metropolitană.
                 </p>
                 <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                  Echipa noastră de profesioniști certificați folosește echipamente de ultimă generație și respectă
-                  protocoale stricte de siguranță pentru a asigura că fiecare proiect este finalizat la cele mai înalte standarde.
+                  Echipa noastră de profesioniști certificați în forarea puțurilor folosește echipamente de ultimă generație și respectă
+                  protocoale stricte de siguranță pentru a asigura că fiecare proiect de forare puturi este finalizat la cele mai înalte standarde de calitate.
                 </p>
 
                 <div className="grid sm:grid-cols-3 gap-6 mb-8">
@@ -341,7 +366,7 @@ function App() {
                   <ScrollAnimation animation="scaleIn" delay={300}>
                     <div className="text-center">
                       <div className="text-3xl font-bold text-blue-800 mb-2">25+</div>
-                      <div className="text-gray-600">Ani Experiență</div>
+                      <div className="text-gray-600">Ani Experiență Foraje</div>
                     </div>
                   </ScrollAnimation>
                   <ScrollAnimation animation="scaleIn" delay={400}>
@@ -358,13 +383,13 @@ function App() {
               <div className="relative">
                 <img
                   src="/images/water-well-drilling-truck.jpg"
-                  alt="Echipament profesional de forare"
+                  alt="Echipament profesional de forare puturi București"
                   className="rounded-xl shadow-2xl"
                 />
                 <div className="absolute -bottom-6 -left-6 bg-orange-500 text-white p-6 rounded-xl shadow-lg">
                   <Users className="w-8 h-8 mb-2" />
                   <div className="font-bold">Licențiați & Asigurați</div>
-                  <div className="text-sm">Echipă Profesională</div>
+                  <div className="text-sm">Echipă Profesională Foraje</div>
                 </div>
               </div>
             </ScrollAnimation>
@@ -377,9 +402,9 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <ScrollAnimation animation="fadeInUp">
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold mb-4">De Ce Să Ne Alegeți?</h2>
+              <h2 className="text-4xl md:text-5xl font-bold mb-4">De Ce Să Ne Alegeți pentru Foraje Puturi?</h2>
               <p className="text-xl text-blue-100 max-w-2xl mx-auto">
-                Suntem dedicați să oferim servicii excepționale și soluții fiabile de apă
+                Suntem dedicați să oferim servicii excepționale de forare puturi și soluții fiabile de apă în București
               </p>
             </div>
           </ScrollAnimation>
@@ -404,14 +429,70 @@ function App() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <section id="testimoniale" className="py-20 bg-gray-50">
+      {/* FAQ Section for SEO */}
+      <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <ScrollAnimation animation="fadeInUp">
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Ce Spun Clienții Noștri</h2>
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Întrebări Frecvente Foraje Puturi</h2>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                Nu luați doar cuvântul nostru - ascultați de la clienții mulțumiți din întreaga regiune
+                Răspunsuri la cele mai comune întrebări despre serviciile noastre de forare puturi în București
+              </p>
+            </div>
+          </ScrollAnimation>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            <ScrollAnimation animation="fadeInLeft">
+              <div className="bg-white p-8 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">Cât costă să forez un puț de apă în București?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Prețul pentru forarea unui puț de apă în București variază în funcție de adâncime, tipul solului și echipamentele necesare. 
+                  Oferim evaluări gratuite și prețuri competitive pentru toate serviciile de forare puturi. Contactați-ne la 0765 807 100 pentru o ofertă personalizată.
+                </p>
+              </div>
+            </ScrollAnimation>
+
+            <ScrollAnimation animation="fadeInRight">
+              <div className="bg-white p-8 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">Cât timp durează să forez un puț de apă?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Durata forării unui puț de apă depinde de adâncimea necesară și tipul solului din zona București. 
+                  În general, un puț rezidențial poate fi finalizat în 1-3 zile. Vă oferim un program detaliat după evaluarea inițială a terenului.
+                </p>
+              </div>
+            </ScrollAnimation>
+
+            <ScrollAnimation animation="fadeInLeft" delay={200}>
+              <div className="bg-white p-8 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">Aveți licențe pentru forarea puțurilor în București?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Da, suntem complet licențiați și asigurați pentru servicii de forare puturi în București și Ilfov. 
+                  Avem toate autorizațiile necesare și respectăm reglementările locale pentru forarea puțurilor de apă.
+                </p>
+              </div>
+            </ScrollAnimation>
+
+            <ScrollAnimation animation="fadeInRight" delay={200}>
+              <div className="bg-white p-8 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">Oferiți garanție pentru serviciile de forare puturi?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Da, oferim garanție completă pentru toate serviciile noastre de forare puturi și instalare echipamente. 
+                  Garanția variază în funcție de tipul serviciului, dar ne susținem munca cu încredere și profesionalism.
+                </p>
+              </div>
+            </ScrollAnimation>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials Section */}
+      <section id="testimoniale" className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <ScrollAnimation animation="fadeInUp">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Recenzii Clienți Foraje Puturi</h2>
+              <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+                Nu luați doar cuvântul nostru - ascultați de la clienții mulțumiți din întreaga regiune București despre serviciile noastre de forare puturi
               </p>
             </div>
           </ScrollAnimation>
@@ -423,7 +504,7 @@ function App() {
                 animation="fadeInUp"
                 delay={index * 200}
               >
-                <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                <div className="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                   <div className="flex items-center mb-4">
                     {[...Array(testimonial.rating)].map((_, i) => (
                       <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
@@ -442,13 +523,13 @@ function App() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 bg-white">
+      <section id="contact" className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <ScrollAnimation animation="fadeInUp">
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Obțineți Oferta Gratuită Astăzi</h2>
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Contact Foraje Puturi București</h2>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                Gata să începeți proiectul de forare? Contactați-ne pentru o consultație și ofertă gratuită
+                Gata să începeți proiectul de forare puturi? Contactați-ne pentru o consultație și ofertă gratuită pentru servicii de forare puturi în București
               </p>
             </div>
           </ScrollAnimation>
@@ -458,41 +539,41 @@ function App() {
             {/* Contact Information */}
             <ScrollAnimation animation="fadeInRight">
               <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">Informații Contact</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-6">Informații Contact Foraje Puturi</h3>
                 <div className="space-y-6">
                   <div className="flex items-start space-x-4">
                     <Phone className="w-6 h-6 text-blue-800 mt-1" />
                     <div>
-                      <h4 className="font-semibold text-gray-900">Telefon</h4>
-                      <p className="text-gray-600">0765 807 100</p>
-                      <p className="text-sm text-gray-500">Servicii de urgență 24/7 disponibile</p>
+                      <h4 className="font-semibold text-gray-900">Telefon Foraje Puturi</h4>
+                      <p className="text-gray-600"><a href="tel:+40765807100">0765 807 100</a></p>
+                      <p className="text-sm text-gray-500">Servicii de urgență puturi 24/7 disponibile</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-4">
                     <Mail className="w-6 h-6 text-blue-800 mt-1" />
                     <div>
-                      <h4 className="font-semibold text-gray-900">Email</h4>
-                      <p className="text-gray-600">adrianrobert748@gmail.com</p>
-                      <p className="text-sm text-gray-500">Răspundem în 24 de ore</p>
+                      <h4 className="font-semibold text-gray-900">Email Foraje Puturi</h4>
+                      <p className="text-gray-600"><a href="mailto:adrianrobert748@gmail.com">adrianrobert748@gmail.com</a></p>
+                      <p className="text-sm text-gray-500">Răspundem în 24 de ore pentru oferte foraje puturi</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-4">
                     <MapPin className="w-6 h-6 text-blue-800 mt-1" />
                     <div>
-                      <h4 className="font-semibold text-gray-900">București</h4>
-                      <p className="text-gray-600">Deservim într-o rază de 100 km</p>
-                      <p className="text-sm text-gray-500">Licențiați în multiple județe</p>
+                      <h4 className="font-semibold text-gray-900">Zona Deservită Foraje Puturi</h4>
+                      <p className="text-gray-600">București și Ilfov - Deservim într-o rază de 100 km</p>
+                      <p className="text-sm text-gray-500">Licențiați pentru foraje puturi în multiple județe</p>
                     </div>
                   </div>
                 </div>
 
                 <div className="mt-12 p-6 bg-orange-50 rounded-xl border border-orange-200">
-                  <h4 className="font-bold text-gray-900 mb-2">Servicii de Urgență</h4>
+                  <h4 className="font-bold text-gray-900 mb-2">Servicii Urgență Foraje Puturi</h4>
                   <p className="text-gray-600 mb-4">
-                    Aveți nevoie de asistență imediată cu sistemul de apă? Oferim servicii de urgență 24/7 pentru situații urgente.
+                    Aveți nevoie de asistență imediată cu sistemul de apă sau puțul dumneavoastră? Oferim servicii de urgență 24/7 pentru situații urgente legate de puțurile de apă.
                   </p>
                   <button className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300">
-                    <a href="tel:+40765807100">Apelați Linia de Urgență</a>
+                    <a href="tel:+40765807100">Apelați Linia de Urgență Puturi</a>
                   </button>
                 </div>
               </div>
@@ -510,52 +591,56 @@ function App() {
                 <div className="flex items-center space-x-3 mb-4">
                   <img
                     src="/images/Screenshot_2025-06-15_at_15.24.03-removebg-preview.png"
-                    alt="Foraje Puturi Logo"
+                    alt="Foraje Puturi București Logo"
                     className="h-10 w-auto brightness-0 invert"
                   />
                 </div>
                 <p className="text-gray-400 leading-relaxed">
-                  Servicii profesionale de forare puturi cu peste 25 de ani de experiență.
-                  Partenerul dumneavoastră de încredere pentru soluții fiabile de apă.
+                  Servicii profesionale de forare puturi București cu peste 25 de ani de experiență.
+                  Partenerul dumneavoastră de încredere pentru soluții fiabile de apă prin forarea puțurilor.
                 </p>
               </div>
             </ScrollAnimation>
 
             <ScrollAnimation animation="fadeInUp" delay={100}>
               <div>
-                <h4 className="font-bold mb-4">Servicii</h4>
+                <h4 className="font-bold mb-4">Servicii Foraje Puturi</h4>
                 <ul className="space-y-2 text-gray-400">
-                  <li><a href="#" className="hover:text-white transition-colors">Forare Puturi de Apă</a></li>
-                  <li><a href="#" className="hover:text-white transition-colors">Întreținere Puturi</a></li>
-                  <li><a href="#" className="hover:text-white transition-colors">Instalare Pompe</a></li>
-                  <li><a href="#" className="hover:text-white transition-colors">Testare Puturi</a></li>
+                  <li><a href="#servicii" className="hover:text-white transition-colors">Forare Puturi de Apă București</a></li>
+                  <li><a href="#servicii" className="hover:text-white transition-colors">Întreținere Puturi Apă</a></li>
+                  <li><a href="#servicii" className="hover:text-white transition-colors">Instalare Pompe Submersibile</a></li>
+                  <li><a href="#servicii" className="hover:text-white transition-colors">Testare Calitate Apă Puturi</a></li>
                 </ul>
               </div>
             </ScrollAnimation>
 
             <ScrollAnimation animation="fadeInUp" delay={200}>
               <div>
-                <h4 className="font-bold mb-4">Companie</h4>
+                <h4 className="font-bold mb-4">Companie Foraje Puturi</h4>
                 <ul className="space-y-2 text-gray-400">
-                  <li><a href="#despre" className="hover:text-white transition-colors">Despre Noi</a></li>
-                  <li><a href="#testimoniale" className="hover:text-white transition-colors">Recenzii</a></li>
-                  <li><a href="#contact" className="hover:text-white transition-colors">Contact</a></li>
-                  <li><a href="#" className="hover:text-white transition-colors">Licențe & Asigurări</a></li>
+                  <li><a href="#despre" className="hover:text-white transition-colors">Despre Foraje Puturi București</a></li>
+                  <li><a href="#testimoniale" className="hover:text-white transition-colors">Recenzii Clienți Foraje</a></li>
+                  <li><a href="#contact" className="hover:text-white transition-colors">Contact Foraje Puturi</a></li>
+                  <li><a href="#" className="hover:text-white transition-colors">Licențe Foraje & Asigurări</a></li>
                 </ul>
               </div>
             </ScrollAnimation>
 
             <ScrollAnimation animation="fadeInUp" delay={300}>
               <div>
-                <h4 className="font-bold mb-4">Contact</h4>
+                <h4 className="font-bold mb-4">Contact Foraje Puturi</h4>
                 <div className="space-y-3 text-gray-400">
                   <div className="flex items-center space-x-2">
                     <Phone className="w-4 h-4" />
-                    <span>0765 807 100</span>
+                    <span><a href="tel:+40765807100">0765 807 100</a></span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <Mail className="w-4 h-4" />
-                    <span>adrianrobert748@gmail.com</span>
+                    <span><a href="mailto:adrianrobert748@gmail.com">adrianrobert748@gmail.com</a></span>
+                  </div>
+                  <div className="text-sm">
+                    <p>Foraje Puturi București și Ilfov</p>
+                    <p>Servicii profesionale 24/7</p>
                   </div>
                 </div>
               </div>
@@ -564,7 +649,8 @@ function App() {
 
           <ScrollAnimation animation="fadeInUp" delay={400}>
             <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-              <p>&copy; 2025 Foraje Puturi. Toate drepturile rezervate. Licențiați și Asigurați.</p>
+              <p>&copy; 2025 Foraje Puturi București. Toate drepturile rezervate. Licențiați și Asigurați pentru Forarea Puțurilor.</p>
+              <p className="mt-2 text-sm">Servicii profesionale foraje puturi de apă în București, Ilfov și împrejurimi</p>
             </div>
           </ScrollAnimation>
         </div>
