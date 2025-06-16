@@ -561,7 +561,7 @@ function App() {
                     <MapPin className="w-6 h-6 text-blue-800 mt-1" />
                     <div>
                       <h4 className="font-semibold text-gray-900">Zona Deservită Foraje Puturi</h4>
-                      <p className="text-gray-600">București și Ilfov - Deservim într-o rază de 100 km</p>
+                      <p className="text-gray-600">București, Ilfov, Teleorman, Argeș, Ialomița, Urziceni, Călărași, Dâmbovița</p>
                       <p className="text-sm text-gray-500">Licențiați pentru foraje puturi în multiple județe</p>
                     </div>
                   </div>
@@ -639,7 +639,7 @@ function App() {
                     <span><a href="mailto:adrianrobert748@gmail.com">adrianrobert748@gmail.com</a></span>
                   </div>
                   <div className="text-sm">
-                    <p>Foraje Puturi București și Ilfov</p>
+                    <p>Foraje Puturi București, Ilfov, Teleorman, Argeș, Ialomița, Urziceni, Călărași, Dâmbovița</p>
                     <p>Servicii profesionale 24/7</p>
                   </div>
                 </div>
