@@ -545,18 +545,11 @@ function App() {
                     <Phone className="w-6 h-6 text-blue-800 mt-1" />
                     <div>
                       <h4 className="font-semibold text-gray-900">Telefon Foraje Puturi</h4>
-                      <p className="text-gray-600"><a href="tel:+40765807100">0765 807 100</a></p>
+                      <p className="text-gray-600"><a href="tel:+40765807100">0733 819 972</a></p>
                       <p className="text-sm text-gray-500">Servicii de urgență puturi 24/7 disponibile</p>
                     </div>
                   </div>
-                  <div className="flex items-start space-x-4">
-                    <Mail className="w-6 h-6 text-blue-800 mt-1" />
-                    <div>
-                      <h4 className="font-semibold text-gray-900">Email Foraje Puturi</h4>
-                      <p className="text-gray-600"><a href="mailto:adrianrobert748@gmail.com">adrianrobert748@gmail.com</a></p>
-                      <p className="text-sm text-gray-500">Răspundem în 24 de ore pentru oferte foraje puturi</p>
-                    </div>
-                  </div>
+                  
                   <div className="flex items-start space-x-4">
                     <MapPin className="w-6 h-6 text-blue-800 mt-1" />
                     <div>
