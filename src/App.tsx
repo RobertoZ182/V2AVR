@@ -240,7 +240,7 @@ function App() {
 
             <div className="hidden md:flex items-center space-x-4">
               <Phone className="w-4 h-4 text-blue-800" />
-              <span className="text-sm font-semibold text-gray-900"><a href="tel:+40765807100">0765 807 100</a></span>
+              <span className="text-sm font-semibold text-gray-900"><a href="tel:+40765807100">0733 819 972</a></span>
             </div>
 
             {/* Mobile menu button */}
@@ -265,7 +265,7 @@ function App() {
               <a href="#contact" className="block text-gray-700 hover:text-blue-800 transition-colors font-medium">Contact</a>
               <div className="flex items-center space-x-2 pt-4 border-t border-gray-200">
                 <Phone className="w-4 h-4 text-blue-800" />
-                <span className="text-sm font-semibold text-gray-900">0765 807 100</span>
+                <span className="text-sm font-semibold text-gray-900">0733 819 972</span>
               </div>
             </div>
           </div>
@@ -625,7 +625,7 @@ function App() {
                 <div className="space-y-3 text-gray-400">
                   <div className="flex items-center space-x-2">
                     <Phone className="w-4 h-4" />
-                    <span><a href="tel:+40765807100">0765 807 100</a></span>
+                    <span><a href="tel:+40765807100">0733 819 972</a></span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <Mail className="w-4 h-4" />
