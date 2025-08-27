@@ -627,10 +627,7 @@ function App() {
                     <Phone className="w-4 h-4" />
                     <span><a href="tel:+40765807100">0733 819 972</a></span>
                   </div>
-                  <div className="flex items-center space-x-2">
-                    <Mail className="w-4 h-4" />
-                    <span><a href="mailto:adrianrobert748@gmail.com">adrianrobert748@gmail.com</a></span>
-                  </div>
+                  
                   <div className="text-sm">
                     <p>Foraje Puturi București, Ilfov, Teleorman, Argeș, Ialomița, Urziceni, Călărași, Dâmbovița</p>
                     <p>Servicii profesionale 24/7</p>
